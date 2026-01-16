@@ -136,5 +136,4 @@ st.markdown(
 """
 )
 
-!streamlit run app.py
 
