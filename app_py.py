@@ -138,9 +138,3 @@ st.markdown(
 
 !streamlit run app.py
 
-!pip install streamlit pyngrok
-
-from pyngrok import ngrok
-
-public_url = ngrok.connect(8501)
-print("Streamlit URL:", public_url)
